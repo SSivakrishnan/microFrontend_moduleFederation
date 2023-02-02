@@ -11,5 +11,8 @@
     "start": "npm run start:host & npm run start:remote",
     "start:host": "cd ./host && npm start",
     "start:remote": "cd ./remote && npm start"
+  },
+  "dependencies": {
+    "webpack": "^5.75.0"
   }
 }
